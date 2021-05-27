@@ -44,6 +44,9 @@ body {
   position: relative;
   transition: transform 0.5s linear;
 }
+.container.show-nav .circle {
+  transform: rotate(-70deg);
+}
 .circle button {
   position: absolute;
   cursor: pointer;
@@ -79,6 +82,7 @@ body {
 .content small {
   color: #555;
   font-style: italic;
+  font-size: 2rem;
 }
 .content p {
   color: #333;
@@ -99,6 +103,7 @@ nav ul li {
   text-transform: uppercase;
   color: #fff;
   margin: 40px 0;
+  cursor: pointer;
 
   transform: translateX(-100%);
   transition: transfrom 0.4s ease-in;
