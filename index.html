@@ -6,10 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <script defer src="js/script.js"></script>
     <title>Rotating Nav</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Pets Article</h1>
+        <small>Jon Doe</small>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          illo nostrum voluptatum labore iste esse ducimus vero corporis,
+          temporibus saepe adipisci quibusdam autem eligendi ullam, numquam
+          veritatis enim odit unde earum impedit alias dolorem eius dolor!
+          Neque, iste fuga quaerat cumque vitae sunt sed nulla odio sequi?
+          Ducimus cumque voluptates iure eaque quam nam reiciendis dignissimos
+          perferendis vel, fuga, sit nihil esse, autem sequi officiis itaque
+          dolorem minima ut mollitia non magnam optio labore. Iusto consequuntur
+          facilis commodi magni rerum! Repudiandae esse sequi consequuntur quae
+          laudantium. Sunt odit fugit debitis provident ipsam itaque eum, fugiat
+          labore repellendus aut numquam. Illo.
+        </p>
+        <h3>My dog</h3>
+        <img
+          src="https://images.unsplash.com/photo-1557722552-16f574788e2b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+          alt=""
+        />
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li>
+          <i class="fas fa-home"></i><span class="nav__content">Home</span>
+        </li>
+        <li>
+          <i class="fas fa-user-alt"></i><span class="nav__content">About</span>
+        </li>
+        <li>
+          <i class="fas fa-envelope"></i
+          ><span class="nav__content">Contact</span>
+        </li>
+      </ul>
+    </nav>
   </body>
 </html>
